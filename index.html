@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="all.css">
-        <link rel="stylesheet" href="locations.css">
-        <link rel="stylesheet" href="rwd_locations.css">
+        <link rel="stylesheet" href="sunglasses.css">
+        <link rel="stylesheet" href="rwd_sunglasses.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -17,12 +17,12 @@
     </head>
     <body>
         <!-- 導覽列 -->
-        <div class="nav mb-96">
+        <div class="nav">
             <div class="nav-container tablet-container">
                 <h1 class="logo"><a href="https://hd1313169.github.io/week3Mission/">logo</a></h1>
                 <ul class="menu">
                     <li><a class="fz-20 txt-white mr-64" href="#">系列鏡框</a></li>
-                    <li><a class="fz-20 txt-white mr-64" href="#">門市據點</a></li>
+                    <li><a class="fz-20 txt-white mr-64" href="https://hd1313169.github.io/week3Mission_3/" target="_blank">門市據點</a></li>
                     <li><a class="fz-20 txt-white mr-64" href="#">部落格</a></li>
                     <li><a class="fz-20 txt-white" href="#">常見問題</a></li>
                 </ul>
@@ -34,81 +34,129 @@
             </div>
         </div>
         <!-- 導覽列END -->
+        
+        <!-- 商品分類 -->
+        <div class="container category-container">
+            <ul class="category ta-c">
+                <li class="category-item"><a class="fz-32 fw-m txt-black" href="">OPTICAL</a></li>
+                <li class="category-item category-item-focus"><a class="fz-32 fw-m txt-black" href="">SUNGLASSES</a></li>
+                <li class="category-item"><a class="fz-32 fw-m txt-black" href="">FUNCTIONAL</a></li>
+            </ul>
+        </div>
+        <!-- 商品分類END -->
 
-        <div class="location-container container">
-            <h1 class="location-title fz-48 fw-b mb-32">門市據點</h1>
+        <!-- sunglasses banner -->
+        <div class="sunglasses-banner mb-80">
+            <div class="sunglasses-banner-img-1"></div>
+            <div class="sunglasses-banner-img-2"></div>
+        </div>
+        <!-- sunglasses banner END-->
 
-            <div class="locations-select">
-                <h3 class="fz-24 fw-r mr-16">選擇地區</h3>
-                <select class="locations-dropDown">
-                    <option value="1">請選擇</option>
-                    <option value="2" selected="select">台北市</option>
-                    <option value="3">台中市</option>
-                    <option value="4">高雄市</option>
-                </select>
-            </div>
+        <!-- 商品目錄 -->
+        <div class="newCollection-container container ta-c mb-80">
+            <h2 class="fz-42 fw-m">2020 NEW COLLECTION</h2>
+            <h3 class="fz-32 fw-r mb-32">賽璐珞鈦金屬混合鏡框</h3>
+            <ul class="newCollection">
+                <li class="newCollection-item mr-24 mb-80">
+                    <a href="#" class="txt-black">
+                        <img src="img/product-7.png" alt="BJ41600S">
+                        <div class="newCollection-content">
+                            <h4 class="fz-24 fw-r">BJ41600S</h4>
+                            <p class="fz-24 fw-m txt-red">NTD3,490</p>
+                        </div>
+                    </a>
+                    <div class="sunglasses-color">
+                        <a href="#" class="sunglasses-color-1 mr-8"></a>
+                        <a href="#" class="sunglasses-color-2"></a>
+                    </div>
+                </li>
+                
+                <li class="newCollection-item mr-24 mb-80">
+                    <a href="#" class="txt-black">
+                        <img src="img/product-8.png" alt="BJ41600S">
+                        <div class="newCollection-content">
+                            <h4 class="fz-24 fw-r">BJ41600S</h4>
+                            <p class="fz-24 fw-m txt-red">NTD3,490</p>
+                        </div>
+                    </a>
+                    <div class="sunglasses-color">
+                        <a href="#" class="sunglasses-color-1 mr-8"></a>
+                        <a href="#" class="sunglasses-color-2"></a>
+                    </div>
+                </li>
 
-            <div class="locations">
-            <div class="locations-item locations-item-r mr-24">
-                <img src="img/store-1.png" alt="台北中山旗艦店">
-                <h4 class="locations-item-title fz-24">台北中山旗艦店</h4>
-                <ul class="locations-item-content fz-20">
-                    <li><span class="material-symbols-outlined">call</span>電話：(02)000-1234</li>
-                    <li><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</li>
-                    <li><span class="material-symbols-outlined">location_on</span>地址：台北市中山區南京東路25巷2-1號</li>
-                </ul>
-                <a href="#" class="locations-btn">詳細資訊</a>
-            </div>
+                <li class="newCollection-item mr-24 mb-80">
+                    <a href="#" class="txt-black">
+                        <img src="img/product-9.png" alt="BJ41600S">
+                        <div class="newCollection-content">
+                            <h4 class="fz-24 fw-r">BJ41600S</h4>
+                            <p class="fz-24 fw-m txt-red">NTD3,490</p>
+                        </div>
+                    </a>
+                    <div class="sunglasses-color">
+                        <a href="#" class="sunglasses-color-1 mr-8"></a>
+                        <a href="#" class="sunglasses-color-2"></a>
+                    </div>
+                </li>
 
-            <div class="locations-item mr-24">
-                <img src="img/store-2.png" alt="台北綠園店">
-                <h4 class="locations-item-title fz-24">台北綠園店</h4>
-                <ul class="locations-item-content fz-20">
-                    <li><span class="material-symbols-outlined">call</span>電話：(02)000-1234</li>
-                    <li><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</li>
-                    <li><span class="material-symbols-outlined">location_on</span>地址：台北市中正區復興南路 132-1 號</li>
-                </ul>
-                <a href="#" class="locations-btn">詳細資訊</a>
-            </div>
+                <li class="newCollection-item mr-24 mb-80">
+                    <a href="#" class="txt-black">
+                        <img src="img/product-10.png" alt="BJ41600S">
+                        <div class="newCollection-content">
+                            <h4 class="fz-24 fw-r">BJ41600S</h4>
+                            <p class="fz-24 fw-m txt-red">NTD3,490</p>
+                        </div>
+                    </a>
+                    <div class="sunglasses-color">
+                        <a href="#" class="sunglasses-color-1 mr-8"></a>
+                        <a href="#" class="sunglasses-color-2"></a>
+                    </div>
+                </li>
 
-            <div class="locations-item locations-item-r">
-                <img src="img/store-3.png" alt="台中清水旗艦店">
-                <h4 class="locations-item-title fz-24">台中清水旗艦店</h4>
-                <ul class="locations-item-content fz-20">
-                    <li><span class="material-symbols-outlined">call</span>電話：(02)000-1234</li>
-                    <li><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</li>
-                    <li><span class="material-symbols-outlined">location_on</span>地址：台北市中正區復興南路 132-1 號</li>
-                </ul>
-                <a href="#" class="locations-btn">詳細資訊</a>
-            </div>
+                <li class="newCollection-item mr-24 mb-80">
+                    <a href="#" class="txt-black">
+                        <img src="img/product-11.png" alt="BJ41600S">
+                        <div class="newCollection-content">
+                            <h4 class="fz-24 fw-r">BJ41600S</h4>
+                            <p class="fz-24 fw-m txt-red">NTD3,490</p>
+                        </div>
+                    </a>
+                    <div class="sunglasses-color">
+                        <a href="#" class="sunglasses-color-1 mr-8"></a>
+                        <a href="#" class="sunglasses-color-2"></a>
+                    </div>
+                </li>
 
-            <div class="locations-item mr-24">
-                <img src="img/store-4.png" alt="高雄中正形象店">
-                <h4 class="locations-item-title fz-24">高雄中正形象店</h4>
-                <ul class="locations-item-content fz-20">
-                    <li><span class="material-symbols-outlined">call</span>電話：(02)000-1234</li>
-                    <li><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</li>
-                    <li><span class="material-symbols-outlined">location_on</span>地址：高雄市苓雅區中正路 38 號 12 樓</li>
-                </ul>
-                <a href="#" class="locations-btn">詳細資訊</a>
-            </div>
+                <li class="newCollection-item mr-24 mb-80">
+                    <a href="#" class="txt-black">
+                        <img src="img/product-12.png" alt="BJ41600S">
+                        <div class="newCollection-content">
+                            <h4 class="fz-24 fw-r">BJ41600S</h4>
+                            <p class="fz-24 fw-m txt-red">NTD3,490</p>
+                        </div>
+                    </a>
+                    <div class="sunglasses-color">
+                        <a href="#" class="sunglasses-color-1 mr-8"></a>
+                        <a href="#" class="sunglasses-color-2"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 商品目錄END -->
 
-            <div class="locations-item locations-item-r">
-                <img src="img/store-5.png" alt="高雄夢時代店">
-                <h4 class="locations-item-title fz-24">高雄夢時代店</h4>
-                <ul class="locations-item-content fz-20">
-                    <li><span class="material-symbols-outlined">call</span>電話：(02)000-1234</li>
-                    <li><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</li>
-                    <li><span class="material-symbols-outlined">location_on</span>地址：高雄市前鎮區中華一路 63 號 6 樓</li>
-                </ul>
-                <a href="#" class="locations-btn">詳細資訊</a>
-            </div>
-
-            </div>
+        <!-- 頁籤 -->
+        <div class="pageNav container ta-c">
+            <a href="#" class="pageTurning">上一頁</a>
+            <a href="#" class="pageDirect pageDirect-focus">1</a>
+            <a href="#" class="pageDirect">2</a>
+            <a href="#" class="pageDirect">3</a>
+            <a href="#" class="pageDirect">4</a>
+            <a href="#" class="pageDirect">5</a>
+            <a href="#" class="pageTurning">下一頁</a>
         </div>
 
-        
-        <!-- footer -->
+        <!-- 頁籤 -->
+            <!-- footer -->
     <div class="footer-bg">
         <div class="footer-container tablet-container txt-white">
             <div class="footer">

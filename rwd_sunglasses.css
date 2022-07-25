@@ -1,0 +1,201 @@
+@media (max-width: 992px){
+
+    /* 導覽列 */
+   .nav-container{
+        width: 100%;
+        padding: 0 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hamberger{
+        display: none;
+    }
+    /* 導覽列 END */
+
+    /* 商品分類 */
+    .category-container{
+        width: 100%;
+    }
+    .category-item{
+        width: 33.3%;
+        padding: 16px 0;
+    }
+    .category-item a{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    /* 商品分類END */
+
+
+    /* 太陽眼鏡BN */
+    .sunglasses-banner{
+        margin-bottom: 80px;
+    }
+    .sunglasses-banner-img-1{
+        background-image: url(img/product-header-sm-3.png);
+    }
+    .sunglasses-banner-img-2{
+        width: 50%;
+        background-image: url(img/product-header-sm-4.png);
+        background-size: cover;
+        background-position: center;
+    }
+    /* 太陽眼鏡BN END */
+
+    /* 商品目錄 */
+    .newCollection-container{
+        width: 100%;
+    }
+    .newCollection-container h2{
+        font-size: 42px;
+    }
+    .newCollection-container h3{
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .newCollection{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        padding: 0 36px;
+    }
+    .newCollection-item{
+        width: 43.2%;
+        font-size: 24px;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+        /* 商品目錄END */
+    /* footer*/
+    .footer-container{
+    width: 100%;
+    padding: 0 36px;
+    }
+    /* footerEND*/
+}
+
+
+@media (max-width: 767px){
+
+    /* 導覽列 */
+    .nav-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .logo{
+        margin-left: 15px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .hamberger{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    .line{
+        background-color: #fff;
+        width: 30px;
+        height: 4px;
+    }
+    /* 導覽列END */
+
+    /* 商品分類 */
+    .category{
+        justify-content: space-between;
+    }
+    .category-item a{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    /* 商品分類END */
+
+    /* 太陽眼鏡BN */
+    .sunglasses-banner{
+        height: 136px;
+        margin-bottom: 40px;
+    }
+    /* 太陽眼鏡BN ENd */
+
+    /* 商品目錄 */
+    .newCollection-container{
+        width: 100%;
+        padding: 0 13px;
+    }
+    .newCollection-container h2{
+        font-size: 24px;
+    }
+    .newCollection-container h3{
+        font-size: 24px;
+    }
+    .newCollection{
+        flex-wrap: wrap;
+        margin-bottom: 64px;
+    }
+    .newCollection-item{
+        width: 100%;
+        font-size: 24px;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    /* 商品目錄END */
+    /* 頁籤 */
+    .pageNav{
+    width: 100%;
+    padding: 0 13px;
+    font-size: 14px;
+    margin-bottom: 64px;
+    }
+    .pageTurning{
+    padding: 11px 13px 12px 14px;
+    }
+    .pageDirect{
+    padding: 12px 15px 12px 16px;
+    }
+    /* 頁籤END */
+
+    /* footer */
+    .footer-bg{
+    padding: 0;
+    }
+    .footer-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 14px 24px 13px;
+    }
+    .contact-item a{
+    font-size: 16px;
+    }
+
+        .subMenu{
+    display: none;
+    }
+    .social a{
+    margin-right: 8px;
+    }
+    .social img{
+    width: 24px;
+    }
+    .copyright{
+    flex-direction: column;
+    padding-top: 24px;
+    }
+    .term{
+    display: flex;
+    flex-direction: column;
+    }
+    .copyright-content{
+    margin-bottom: 16px;
+    }
+    .term a{
+    margin-bottom: 8px;
+    }
+    /* footerEND*/
+}
