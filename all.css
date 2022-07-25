@@ -1,0 +1,200 @@
+.container{
+    width: 67.5%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* 導覽列 */
+.nav{
+    background-color: #AA0601;
+    padding: 16px 0;
+}
+.nav-container{
+    width: 67.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    display:block;
+    width:80px;
+    height: 48.5px;
+    background:url(img/logo-white.png);
+    background-size: cover;
+    background-position: center center;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/* 導覽列 end */
+/* banner */
+
+.header{
+    height: 787px;
+    background-image: url(img/home-header.png);
+    background-size: cover;
+    background-position: center;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+    padding-top: 296px;
+}
+.slogan a{
+    display: block;
+    background-color: #AA0601;
+    padding: 6px 12px;
+}
+.slogan a:hover{
+    background-color: #650300;
+}
+/* banner end */
+
+.intro{
+    display: flex;
+}
+.intro-item{
+    width: 23.6%;
+}
+.intro-icon{
+    width: 84px;
+    height: 84px;
+}
+
+
+/* 經典系列 */
+.classicalSeries{
+    display: flex;
+}
+
+.classicalSeries-item{
+    width: 33.3%;   
+}
+.classicalSeries-item a:hover{
+    filter:brightness(80%);
+}
+
+
+/* 經典系列end */
+
+/* 聯名設計 */
+.co-brand-bg{
+    /* height: 608px; */
+    background-image: url(img/index-bg.png);
+    background-size: cover;
+    padding: 80px 0;
+}
+.co-brand{
+    margin: 0 auto;
+    display: flex;
+}
+.co-brand-item{
+    background-color: #fff;
+}
+.co-brand a{
+    width: 50%;
+}
+.co-brand a:hover{
+    filter:brightness(80%);
+}
+.co-brand a p{
+    padding: 8px 0;
+}
+
+
+/* 聯名設計 end */
+
+/* 顧客推薦 */
+.recommend{
+    display: flex;
+}
+.recommend-item{
+    width: 23.6%;  
+    border: 1px solid #DEE2E6;
+    box-shadow: 0 2px 6px #00000029; 
+}
+.recommend-content{
+    padding: 16px;
+}
+
+
+/* 顧客推薦END */
+
+/* 聯絡我們 */
+.contact-container{
+    width: 33.1%;
+    margin: 0 auto;
+}
+label{
+    display: block;
+}
+.contact-input{
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 0%;
+    border: 1px solid #000;
+}
+.contact-comfirm{
+    display: block;
+    width: 65.4%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #AA0601;
+    border: none;
+    color: white;
+    padding: 16px 0px;
+    margin-bottom: 80px;
+}
+.contact-comfirm:hover{
+    background-color: #650300;
+}
+
+/* 聯絡我們END */
+
+/* footer */
+.footer-bg{
+    background-color: #AA0601;
+    padding: 48px 0 32px 0;
+}
+.footer-container{
+    width: 67.5%;
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.subMenu{
+    display: flex;
+}
+.social img{
+    width: 48px;
+}
+.social a:hover{
+    filter:brightness(80%);
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid #fff;
+}
+.footer-container a:hover{
+    text-decoration: underline;
+}
+
+/* footer END */
+
