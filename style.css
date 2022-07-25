@@ -23,6 +23,9 @@ a{
 .fz-16{
     font-size: 16px;
 }
+.fz-18{
+    font-size: 18px;
+}
 .fz-20{
     font-size: 20px;
 }
@@ -112,6 +115,9 @@ a{
 .mb-80{
     margin-bottom: 80px;
 }
+.mb-96{
+    margin-bottom: 96px;
+}
 .mb-160{
     margin-bottom: 160px;
 }
@@ -120,6 +126,9 @@ a{
 }
 .mr-8{
     margin-right: 8px;
+}
+.mr-16{
+    margin-right: 16px;
 }
 .mr-22{
     margin-right: 22px;

@@ -4,3 +4,64 @@
 }
 /* 導覽列END */
 
+/* 門市據點 */
+.location-title::before{
+    display: inline-block;
+    content: "";
+    vertical-align: middle;
+    background-color: #9F1213;
+    width: 8px;
+    height: 48px;
+    margin-right: 16px;
+}
+.locations-select{
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+
+}
+.locations-dropDown{
+    width: 23.4%;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #495057;
+    opacity: 75%;
+    border: 1px solid #CED4DA;
+    border-radius: 0%;
+    padding: 6px 12px;
+}
+
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.locations-item{
+    width: 30%;
+    margin-bottom: 48px;
+}
+.locations-item-title{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+.locations-item-content{
+    padding: 16px 24px;
+    border: 1px solid #00000020;
+}
+.material-symbols-outlined{
+    display: block;
+    margin-right: 11px;
+    vertical-align: middle;
+}
+.locations-btn{
+    display: block;
+    font-size: 19px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #00000020;
+    padding: 16px 0;
+}
+.locations-btn:hover{
+    background-color: #650300;
+}
