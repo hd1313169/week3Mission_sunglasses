@@ -12,8 +12,29 @@
     }
     /* 導覽列 END */
 
+    /* 門市據點 */
+    .location-container{
+        width: 100%;
+        padding: 0 36px 0 35px;
+        margin-bottom: 80px;
+    }
+    .locations-dropDown{
+        width: 30.6%;
+    }
+    .locations{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .locations-item{
+        width: 43.9%;
+        margin-right: 0;
+    }
+    .locations-item-r{
+        margin-right: 24px;
+    }
 
 
+    /* 門市據點END */
     
     /* footer*/
     .footer-container{
@@ -86,7 +107,7 @@
         margin-bottom: 40px;
     }
 
-
+    /* 門市據點END */
 
     /* footer */
     .footer-bg{
