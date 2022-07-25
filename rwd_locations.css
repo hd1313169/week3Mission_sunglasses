@@ -27,12 +27,15 @@
 @media (max-width: 767px){
 
     /* 導覽列 */
+    .nav{
+        margin-bottom: 40px;
+    }
     .nav-container{
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        padding: 0px;
     }
     .logo{
         margin-left: 15px;
@@ -56,6 +59,32 @@
     }
     /* 導覽列END */
 
+    /* 門市據點 */
+    .location-container{
+        width: 100%;
+        padding: 0 14px 0 13px;
+    }
+    .location-title{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .location-title::before{
+        height: 36px;
+    }
+    .locations-select h3{
+        font-size: 16px;
+    }
+    .locations-dropDown{
+        width: 73.6%;
+    }
+    .locations{
+        margin-bottom: 64px;
+    }
+    .locations-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
 
 
 
